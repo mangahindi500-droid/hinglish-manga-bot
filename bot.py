@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Telegram Bot Token
-TOKEN = "8815227985:AAFkdIiVhxgdFrH4xbt4WTKwd28mjk9JelQ"
+TOKEN = "8815227985:AAENLEHZiMF4CMnNQY05hVDU06XTz7HLd9M"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("नमस्ते! बॉट Render पर सफलतापूर्वक लाइव हो चुका है।")
