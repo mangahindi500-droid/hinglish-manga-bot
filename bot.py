@@ -3,7 +3,7 @@ import asyncio
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8905509516:AAHCAPiDOPA3IseS6TI2WDZE97a6m6TExjc"
+TOKEN = "8815227985:AAFkdIiVhxgdFrH4xbt4WTKwd28mjk9JelQ"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("नमस्ते! बॉट सफलतापूर्वक चालू हो गया है।")
